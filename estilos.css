@@ -1,0 +1,16 @@
+.imagenCuchara {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 310px;
+}
+
+@font-face {
+    font-family: 'SF Fedora';
+    src: local('SF Fedora'), url('fonts/SFFedora.ttf') format('truetype');
+}
+
+#subtitulos{
+    font-family: 'SF Fedora', sans-serif;  
+    text-align: center;
+}
