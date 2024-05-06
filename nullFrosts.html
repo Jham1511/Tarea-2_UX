@@ -12,22 +12,22 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">NullFrosts</a>
+          <a class="navbar-brand" href="#" id = "subtitulos">NullFrosts</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Inicio
+                <a class="nav-link active" href="#home">Inicio
                   <span class="visually-hidden">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nosotros</a>
+                <a class="nav-link" href="#about">Sobre Nosotros</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contáctanos</a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#contact" role="button" aria-haspopup="true" aria-expanded="false">Contáctanos</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Teléfono</a>
                   <div class="dropdown-divider"></div>
@@ -38,9 +38,11 @@
           </div>
         </div>
       </nav>
+      <br>
       <h1 id = "subtitulos">Tu mejor opción en cereales</h1>
       
       <div id="carouselExampleCaptions" class="carousel slide">
+
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -49,13 +51,95 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
-      
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagenes/Cuchara.jpg" class="imagenesCarrusel"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Gran variedad de sabores.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/Cereales.jpg" class="imagenesCarrusel"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Nuevos sabores de temporada cada mes.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./imagenes/Cajas.jpg" class="imagenesCarrusel"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Diseños originales.</p>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <section id="cards">
+        <div class="container">
+            <div class="row">
         
+        <div class="col-12 col-md-4 mt-5">
+        <div class="card border-light mb-3" style="max-width: 20rem;">
+            <div class="card-header">Pokémon</div>
+            <div class="card-body">
+            <h4 class="card-title">Colaboración con Pokémon</h4>
+            <img src="./imagenes/PokemonCereal.jpg" class="d-block w-100" alt="...">
+            <p class="card-text">Prepárate para un desayuno lleno de aventuras con los cereales Pokémon! Descubre una combinación mágica de sabores y energía mientras te unes a tus Pokémon favoritos en una deliciosa experiencia matutina. ¡Atrapa el sabor y la diversión en cada bocado con los cereales Pokémon!</p>
+            </div>
+        </div>
+    </div>
+        
+    <div class="col-12 col-md-4 mt-5">
+        <div class="card border-dark mb-3" style="max-width: 20rem;">
+            <div class="card-header">Superhéroes</div>
+            <div class="card-body">
+            <h4 class="card-title">Colaboración con DC</h4>
+            <img src="./imagenes/DC.jpg" class="d-block w-100" alt="...">
+            <p class="card-text">¡Despierta el héroe que llevas dentro con los cereales de DC Heroes! Cada mañana, sumérgete en un desayuno lleno de sabor y energía, inspirado en tus personajes favoritos de DC Comics. Con cada bocado, prepárate para emprender aventuras épicas y salvar el día. </p>
+            </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mt-5">
+            <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                <div class="card-header">Caricaturas y Series</div>
+                <div class="card-body">
+                  <h4 class="card-title">Colaboración con Series</h4>
+                  <img src="./imagenes/Reptar.png" class="d-block w-100" alt="...">
+                  <p class="card-text">¡Embárcate en una aventura salvaje con los cereales de Reptar! Únete al legendario dinosaurio verde en un desayuno lleno de sabor y diversión. Cada bocado te llevará a través de emocionantes mordiscos mientras te sumerges en el mundo vibrante de Reptar. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <h2 id = "subtitulos">Sobre nosotros</h2>
+                <p id = "texto">
+                    En NullFrosts, nos dedicamos a ofrecerte cereales innovadores y deliciosos para que empieces tu día con energía y vitalidad. Nos esforzamos por ser líderes en calidad, sostenibilidad y responsabilidad social. Gracias por elegirnos como tu opción de desayuno. ¡Únete a nosotros en nuestro viaje para hacer del desayuno una experiencia increíble!
+                </p>
+            </div>
+        </div>
+    </section>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
-<script>
-
-</script>
